@@ -10,7 +10,7 @@
     <link href="style.css" rel="stylesheet">
     <script src="script.js"></script>
 
-    <title>Lenses Photography</title>
+    <title>Velram Realty Co</title>
   </head>
   <body>
       <!-- Nav Section -->
@@ -21,14 +21,14 @@
           <div class="d-block d-sm-none"> <!-- Show only on phones and smaller -->
             <!-- Top Navigation Menu -->
             <div class="topnav row">
-                <div class="col-2">
-                    <input id="clickMe" type="image" class="hamburger" src="images\nav\hamburger.png" value="clickme" onclick="openmenu();" />
+                <div class="col-2" id="hamcol">
+                    <button onclick="openmenu()" id="hamburger">☰</button>
                 </div>
                 <div class="col-8">
-                    <h1>Lenses Photography</h1>
+                    <h1 class="logotxt pt-3">Velram Realty Co.</h1>
                 </div>
-                <div class="col-2">
-                    <img src="images\logo mobile.png" class="hamburger">
+                <div class="col-2 pt-2">
+                    <img src="images\logomobile.png" class="mlogo">
                 </div>
             <!-- Navigation links (hidden by default) -->
              <div id="myLinks">
@@ -38,14 +38,27 @@
                 <a href="#about">Contact</a>
              </div>
             </div>
+        
+        <div class="row p-3">
+          <div class="col-8">
+            <img src="images\topleft.png" class="img-fluid" id="topleft" alt="...">
+          </div>
+          <div class="col-4">
+            <img src="images\topright.png" class="img-fluid" id="topright" alt="...">
+          </div>
+          <img src="images\logo.png" id="logomobile" alt="logo">
+        </div>
+        <div class="row px-3">
+            <div class="col">
+              <img src="images\centremiddle.png" class="img-fluid" id="centremiddle" alt="...">
+            </div>
+        </div>
+        <div class="row px-3">
+            <div class="col">
+              <img src="images\bottommiddle.png" class="img-fluid pt-3" id="bottommiddle" alt="...">
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm">col-sm</div>
-          <div class="col-sm">col-sm</div>
-          <div class="col-sm">col-sm</div>
-        </div>
-      </div>
-
+    </div>
   </body>
 </html>

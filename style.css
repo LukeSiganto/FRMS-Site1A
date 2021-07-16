@@ -1,16 +1,16 @@
 body {
-	background-color: #F2BD99;
+	background-color: white;
 }
 
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
-    background-color: #F2BD99;
+    background-color: white;
     position: relative;
   }
 
  #myLinks {
-     background-color: white;
+     background-color: #379D8A;
  }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -20,7 +20,7 @@ body {
   
   /* Style navigation menu links */
   .topnav a {
-    color: #F2BD99;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -28,7 +28,57 @@ body {
     display: block;
   }
   
-  .hamburger {
-      max-width: 50px;
+  #hamburger {
+    border: none;
+    color: #379D8A;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
   }
 
+  #hamcol {
+    background-color: white;
+  }
+
+  .mlogo {
+    max-width: 50px;
+}
+
+.logotxt {
+    color: #379D8A;
+}
+
+  /* Image Styling IDs */
+
+#topleft {
+    height: 300px;
+    object-fit: cover;
+}
+
+#topright {
+    height: 300px;
+    object-fit: cover;
+}
+
+#centremiddle {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#bottommiddle {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#logomobile {
+    position: absolute;
+    height: 40%;
+    left: 170px;
+    top: 230px;
+    width: 40%;
+    object-fit: contain;
+}
