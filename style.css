@@ -1,9 +1,17 @@
+/* Global Styling */
+
 body {
 	background-color: white;
 }
 
 ul {
     list-style-type: none;
+}
+
+a {
+    color: #379D8A;
+    text-decoration: none;
+    font-family: 'Fahkwang', sans-serif;
 }
 
 /* Style the navigation menu */
@@ -27,13 +35,38 @@ ul {
     color: #379D8A;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     list-style-type: none;
   }
 
+  .tealbg{
+      background-color: #379D8A;
+      color: white;
+  }
+
+  .padmin {
+      padding-right: 0px;
+  }
+
+  .nopadleft {
+      padding-left: 0px;
+  }
+
   .heightscale {
-      height: 80%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+  }
+
+  .heightlock {
+      height: 300px;
+  }
+
+  .aboutimage {
+      height: 170%;
+      position: relative;
+      overflow: hidden;
   }
   /* Style navigation menu links */
 
@@ -69,14 +102,9 @@ ul {
     font-size: 25px;
 }
 
-  /* Image Styling IDs */
+  /* Image Styling*/
 
-#topleft {
-    height: 300px;
-    object-fit: cover;
-}
-
-#topright {
+.mobileimg {
     height: 300px;
     object-fit: cover;
 }
@@ -84,13 +112,11 @@ ul {
 #centremiddle {
     height: 200px;
     width: 100%;
-    object-fit: cover;
 }
 
 #bottommiddle {
     height: 200px;
     width: 100%;
-    object-fit: cover;
 }
 
 #logomobile {
@@ -102,14 +128,15 @@ ul {
     object-fit: contain;
 }
 
-#rightdesktop {
-    object-fit: cover;
+#logodesktop {
+    position: absolute;
+    height: 35%;
+    left: 470px;
+    top: 230px;
+    width: 40%;
+    object-fit: contain;
 }
 
-#topleftd {
-    object-fit: cover;
-}
-
-#toprightd {
+.desktopimg {
     object-fit: cover;
 }
