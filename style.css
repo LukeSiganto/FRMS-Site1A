@@ -60,7 +60,7 @@ a {
   }
 
   .heightlock {
-      height: 300px;
+      height: 43vh;
   }
 
   .aboutimage {
@@ -109,14 +109,12 @@ a {
     object-fit: cover;
 }
 
-#centremiddle {
-    height: 200px;
-    width: 100%;
+.img-fluid {
+    max-width: 110%;
 }
 
-#bottommiddle {
-    height: 200px;
-    width: 100%;
+#bottomleft {
+    max-width: 170%;
 }
 
 #logomobile {
@@ -131,9 +129,9 @@ a {
 #logodesktop {
     position: absolute;
     height: 35%;
-    left: 470px;
-    top: 230px;
-    width: 40%;
+    left: 38%;
+    top: 30%;
+    width: 15%;
     object-fit: contain;
 }
 
