@@ -63,6 +63,10 @@ a {
       height: 43vh;
   }
 
+  .fullheightlock {
+      height: 100vh;
+  }
+
   .aboutimage {
       height: 170%;
       position: relative;
@@ -126,11 +130,20 @@ a {
     object-fit: contain;
 }
 
-#logodesktop {
+#logohome {
     position: absolute;
     height: 35%;
     left: 38%;
     top: 30%;
+    width: 15%;
+    object-fit: contain;
+}
+
+#logoabout {
+    position: absolute;
+    height: 15%;
+    left: 3%;
+    top: 73%;
     width: 15%;
     object-fit: contain;
 }
