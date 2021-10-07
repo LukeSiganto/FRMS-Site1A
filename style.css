@@ -1,7 +1,7 @@
 /* Global Styling */
 
 body {
-	background-color: white;
+    background-color: white;
 }
 
 ul {
@@ -19,71 +19,71 @@ a {
     overflow: hidden;
     background-color: white;
     position: relative;
-  }
+}
 
- #myLinks {
-     background-color: #379D8A;
- }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
+#myLinks {
+    background-color: #379D8A;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
     display: none;
-  }
-  
-  /* Desktop Styling */
-  .sidenav {
+}
+
+/* Desktop Styling */
+.sidenav {
     color: #379D8A;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
     text-align: center;
     list-style-type: none;
-  }
+}
 
-  .tealbg{
-      background-color: #379D8A;
-      color: white;
-  }
+.tealbg{
+    background-color: #379D8A;
+    color: white;
+}
 
-  .padmin {
-      padding-right: 0px;
-  }
+.padmin {
+    padding-right: 0px;
+}
 
-  .nopadleft {
-      padding-left: 0px;
-  }
+.nopadleft {
+    padding-left: 0px;
+}
 
-  .heightscale {
-      height: 100%;
-      position: relative;
-      overflow: hidden;
-  }
+.heightscale {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
 
-  .heightlock {
-      height: 43vh;
-  }
+.heightlock {
+    height: 43vh;
+}
 
-  .fullheightlock {
-      height: 100vh;
-  }
+.fullheightlock {
+    height: 100vh;
+}
 
-  .aboutimage {
-      height: 170%;
-      position: relative;
-      overflow: hidden;
-  }
-  /* Style navigation menu links */
+.aboutimage {
+    height: 170%;
+    position: relative;
+    overflow: hidden;
+}
+/* Style navigation menu links */
 
-  .topnav a {
+.topnav a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
     display: block;
-  }
-  
-  #hamburger {
+}
+
+#hamburger {
     border: none;
     color: #379D8A;
     background-color: white;
@@ -91,14 +91,18 @@ a {
     text-decoration: none;
     display: inline-block;
     font-size: 40px;
-  }
+}
 
-  #hamcol {
+#hamcol {
     background-color: white;
-  }
+}
 
-  .mlogo {
+.mlogo {
     max-width: 50px;
+}
+
+.overflowhide {
+    overflow: hidden;
 }
 
 .logotxt {
@@ -106,7 +110,66 @@ a {
     font-size: 25px;
 }
 
-  /* Image Styling*/
+
+
+/* Mobile Styling */
+
+.aboutbanner {
+    height: 15vh;
+    color: white;
+    background-color: #379D8A;
+}
+
+.about {
+    padding-left: 0; 
+    padding-right: 0; 
+    height: 60h;
+}
+
+.abouttxt {
+    opacity: 0.7;
+    background-color: #379D8A;
+    color: white;
+    position: absolute;
+    height: 17vh;
+    width: 92%;
+    left: 4%;
+    top: 81%;
+}
+
+.opacity {  
+    opacity: 1;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #379D8A;  
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: #999;  
+    }
+
+.scrollBox {
+    overflow-x: hidden;
+    border: none;
+    overflow-y: scroll;
+    }
+
+/* Image Styling*/
 
 .mobileimg {
     height: 300px;
@@ -114,7 +177,7 @@ a {
 }
 
 .img-fluid {
-    max-width: 110%;
+    max-width: 120%;
 }
 
 #bottomleft {
